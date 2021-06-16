@@ -32,6 +32,6 @@
     height: 100vh;
 }
 
-.row{
+.container .row{
     height: calc(100vh/5);
 }
