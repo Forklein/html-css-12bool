@@ -1,0 +1,39 @@
+/* container  */
+
+.container{
+    width: 100%;
+    max-width: 1078px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    width: 100%;
+    max-width: 100%;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+/* Set Row */
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Set column */
+
+.col{
+    flex-grow: 1;
+}
+
+.col-12{
+    width: calc(100%/12*12);
+}
+.col-1{
+    width: calc(100%/12 * 1);
+}
+

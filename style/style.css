@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility */
+
+.border-black{
+    border: 1px solid black;
+}
+
+.border-white{
+    border: 1px solid white;
+}
+
+.bg-pink{
+    background-color: #ffc0cb;
+}
+
+.bg-pink-fluo{
+    background-color: #f07f80;
+}
+
+/* 12 col */
+
+.container{
+    height: 100vh;
+}
