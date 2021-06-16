@@ -11,13 +11,27 @@
 
 .container{
     width: 100%;
-    max-width: 1078px;
+    max-width: 992px;
     margin: 0 auto;
 }
 
 .container-fluid{
     width: 100%;
     max-width: 100%;
+}
+
+/* text align */
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
 }
 
 /* Flex property */
@@ -59,7 +73,7 @@
     flex-wrap: wrap;
 }
 
-/* Set column LARGE*/
+/* Set column LARGE (992px)*/
 
 .col-lg-12{
     width: calc(100%/12*12);
