@@ -22,8 +22,16 @@
     background-color: #f07f80;
 }
 
+.padding-5{
+    padding: 5px;
+}
+
 /* 12 col */
 
 .container{
     height: 100vh;
+}
+
+.row{
+    height: calc(100vh/5);
 }
