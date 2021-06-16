@@ -28,10 +28,6 @@
 
 /* 12 col */
 
-.container{
-    height: 100vh;
-}
-
 .container .row{
-    height: calc(100vh/5);
+    min-height: 150px;
 }
